@@ -1,18 +1,51 @@
 .title {
-    font-size: 50px;
-    font-variant: small-caps;
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
 }
 .p1 {
     font-size: 30px;
     font-style: oblique;
 }
 .description {
-    font-size: 35px;
-    color: rgb(20, 5, 153);
-    font-style: italic;
+    font-size: 16px;
+    color: cornflowerblue;
+    line-height: 20px;
 }
 
-.p2 {
-   font-size: 25px;
-   font-style: italic;
+body{
+    margin-top: 50px;
+    border: solid blue;
+    box-shadow: blue;
+}
+
+.par {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
    }
+
+.wrap {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    }
+
+.hr {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.h2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
